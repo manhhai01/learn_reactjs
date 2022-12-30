@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class SanPham extends Component {
     render() {
 
-        let {product, xemChiTiet} = this.props
+        let { product, xemChiTiet, themGioHang } = this.props
 
         return (
             <div className="card">
@@ -14,6 +14,9 @@ export default class SanPham extends Component {
                     <button className="btn btn-success" onClick={() => {
                         xemChiTiet(product)
                     }}>Xem chi tiết</button>
+                    <button className="btn btn-danger ml-3" onClick={() => {
+                        themGioHang(product)
+                    }}><i className="fa fa-shopping-cart mr-2"></i>Thêm giỏ hàng</button>
                 </div>
             </div>
         )

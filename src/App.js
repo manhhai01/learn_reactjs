@@ -9,6 +9,9 @@ import RenderArray from './Components/RenderArray/RenderArray'
 import DemoProps from './Components/Props/DemoProps/DemoProps'
 import ShoeShop from './Components/Props/ShoeShop/ShoeShop'
 import XemChiTiet from './Components/Props/XemChiTiet/XemChiTiet';
+import TangGiamSoLuong from './DemoRedux/TangGiamSoLuong/TangGiamSoLuong';
+import BTChonXe from './DemoRedux/BTChonXeRedux/BTChonXe';
+import BTGioHangRedux from './DemoRedux/BTGioHangRedux/BTGioHangRedux';
 
 function App() {
   return (
@@ -22,7 +25,11 @@ function App() {
       {/* <RenderArray /> */}
       {/* <DemoProps /> */}
       {/* <ShoeShop /> */}
-      <XemChiTiet />
+      {/* <XemChiTiet /> */}
+      {/* <TangGiamSoLuong /> */}
+      {/* <BTChonXe /> */}
+
+      <BTGioHangRedux />
     </div>
   );
 }
